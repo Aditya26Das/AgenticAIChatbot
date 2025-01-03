@@ -1,11 +1,14 @@
 import streamlit as st
 import requests
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # Streamlit App Configuration
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 
 # Define API endpoint
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = f"{os.getenv("API_END_POINT")}/chat"
 
 # Predefined models
 MODEL_NAMES = [

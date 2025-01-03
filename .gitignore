@@ -1,0 +1,7 @@
+./api/__pycache__
+./__pycache__
+__pycache__
+./streamlit_app/__pycache__
+
+.env
+myenv

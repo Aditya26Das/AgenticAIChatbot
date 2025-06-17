@@ -97,13 +97,11 @@ streamlit run app.py
 ```
 
 ## Demo Preview
-```bash
 | Page                       | Description                   |
 | -------------------------- | ----------------------------- |
 | 🧠 `Define you AI Agent:`  | Write your system prompt      |
 | 💬 `Enter your message(s)` | Send your query to the agent  |
 | 🤖 `Agent Response`        | AI's final answer shown below |
-```
 
 ## Future Improvements
 - Chat history storage (Redis / DB)
